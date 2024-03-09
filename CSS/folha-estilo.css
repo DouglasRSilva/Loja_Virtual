@@ -1,0 +1,526 @@
+/*Inicio das Formatações gerais*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+    -ms-zoom: 110px;
+}
+
+p,a {
+    font-style: oblique;
+    font-weight: 900;
+    text-align: center;
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    
+    font-weight: bold;
+    color: rgb(43, 15, 43);
+}
+
+li {
+    padding: 4px;
+    list-style: none;
+    display: inline-block;
+}
+
+#destaques>ul>div{
+    margin-top: -15px;
+    float: left;
+}
+
+#destaques>ul>li{
+    margin-top: -15px;
+    float: left;
+}
+
+.enquadramento {
+    margin: auto;
+    min-width: 1200px;
+    width: 1200px;
+    max-width: 1200px;
+}
+
+/*Fim das Formatações gerais*/
+
+/*Inicio da Formatação o Header - Nav-Bar*/
+header {
+    padding: 10px 5px;
+    background-color: rgb(146, 50, 149);
+}
+
+#menu-esquerdo {
+    width: 45%;
+    padding-left: 10px;
+    float: left;
+}
+
+#menu-direito {
+    width: 45%;
+    padding-right: 10px;
+    float: right;
+    text-align: right;
+}
+
+#logo-empresa {
+    width: 25%;
+    height: 70px;
+    margin-left: 20px;
+    float: left;
+}
+
+#barra-pesquisa {
+    width: 65%;
+    height: 70px;
+    margin-right: 20px;
+    line-height: 4em;
+    float: right;
+    text-align: right;
+}
+
+#barra-pesquisa>input, button{
+    border-radius: 5px;
+    border-color: rgb(146, 50, 149);
+}
+
+#barra-pesquisa>input {
+    width: 80%;
+    height: 35px;
+}
+
+#barra-pesquisa>button {
+    width: 15%;
+    height: 35px;
+}
+
+#outros-destaques {
+    width: 100%;
+    clear: both;
+    text-align: center;
+}
+
+/*Inicio da Formatação o Header - Nav-Bar*/
+
+/*Inicio da Formatação do Article - Conteudo da página*/
+
+#efeito-carrossel {
+    margin: auto;
+    width: 99%;
+    height: 100px;
+    border-radius: 10px;
+}
+
+#destaques {
+    width: 515px;
+    margin: auto;
+    padding: 15px;
+}
+
+#grade-produto1 {
+    clear: both;
+    margin: auto;
+    width: 1100px;
+}
+
+.zoom-grade:hover{
+    transform: scale(1.02);
+}
+
+#coluna1,
+#coluna2,
+#coluna3,
+#coluna4,
+#coluna5 {
+    width: 220px;
+    float: left;
+}
+
+#coluna1>div,
+#coluna2>div,
+#coluna3>div,
+#coluna4>div,
+#coluna5>div,
+#destaque1>div,
+#destaque2>div,
+#destaque3>div,
+#destaque4>div,
+#destaque5>div {
+    width: 210px;
+    height: 300px;
+    margin: 5px 2px;
+    border-radius: 5px 15px 5px 15px;
+    border: 1px solid rgb(221, 221, 221);
+}
+
+/*Formatação geral das imagens do produto*/
+.imagens-produtos1, .imagens-produtos2, .imagens-produtos3, .imagens-produtos4, .imagens-produtos5, .imagens-produtos6, .imagens-produtos7, .imagens-produtos8, .imagens-produtos9, .imagens-produtos10, .imagens-sub-produtos1, .imagens-sub-produtos2, .imagens-sub-produtos3, .imagens-sub-produtos4, .imagens-sub-produtos5, .imagens-sub-produtos6, .imagens-sub-produtos7, .imagens-sub-produtos8, .imagens-sub-produtos9, .imagens-sub-produtos10{
+    width: 210px;
+    height: 235px;
+    border-radius: 5px 15px 5px 15px;
+    transition: 1.5s;
+}
+
+/*Inicio das imagens e efeito hover, até o momento não achei outra forma de fazer */
+.imagens-produtos1{
+    background-image: url(../Imagens/Produtos1/Adesivos.jpg);
+}
+
+.imagens-produtos1:hover{
+    background-image: url(../Imagens/Produtos1/Adesivos1.jpg);
+}
+
+.imagens-produtos2{
+    background-image: url(../Imagens/Produtos1/Caneta.jpg);
+}
+
+.imagens-produtos2:hover{
+    background-image: url(../Imagens/Produtos1/Caneta\ \(2\).jpg);
+}
+
+.imagens-produtos3{
+    background-image: url(../Imagens/Produtos1/Carregador-xbox.jpg);
+}
+
+.imagens-produtos3:hover{
+    background-image: url(../Imagens/Produtos1/Carregador-xbox1.jpg);
+}
+
+.imagens-produtos4{
+    background-image: url(../Imagens/Produtos1/Copo-Térmico.jpg);
+}
+
+.imagens-produtos4:hover{
+    background-image: url(../Imagens/Produtos1/Copo-Térmico1.jpg);
+}
+
+.imagens-produtos5{
+    background-image: url(../Imagens/Produtos1/Garrafa-Água.jpg);
+}
+
+.imagens-produtos5:hover{
+    background-image: url(../Imagens/Produtos1/Garrafa-Água1.jpg);
+}
+
+.imagens-produtos6{
+    background-image: url(../Imagens/Produtos1/Maquina-cabelo.jpg);
+}
+
+.imagens-produtos6:hover{
+    background-image: url(../Imagens/Produtos1/Maquina-cabelo1.jpg);
+}
+
+.imagens-produtos7{
+    background-image: url(../Imagens/Produtos1/Medidor-Pressão.jpg);
+}
+
+.imagens-produtos7:hover{
+    background-image: url(../Imagens/Produtos1/Medidor-Pressão1.jpg);
+}
+
+.imagens-produtos8{
+    background-image: url(../Imagens/Produtos1/Mini-Massgeador.jpg);
+}
+
+.imagens-produtos8:hover{
+    background-image: url(../Imagens/Produtos1/Mini-Massgeador1.jpg);
+}
+
+.imagens-produtos9{
+    background-image: url(../Imagens/Produtos1/Talheres.jpg);
+}
+
+.imagens-produtos9:hover{
+    background-image: url(../Imagens/Produtos1/Talheres1.jpg);
+}
+
+.imagens-produtos10{
+    background-image: url(../Imagens/Produtos1/Velas.jpg);
+}
+
+.imagens-produtos10:hover{
+    background-image: url(../Imagens/Produtos1/Velas1.jpg);
+}
+/*Fim dos efeito hover nas imagens */
+
+.titulo-produtos{
+    text-align: center;
+    font-size: 13px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 500;
+}
+
+.preço-produto{
+    text-align: center;
+    font-size: 17px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-top: 3px;
+    color: red;
+}
+
+div>#banner {
+    margin: auto;
+    width: 1150px;
+    height: 150px;
+    clear: both;
+}
+
+#efeito-carrossel{
+    width: 1200;
+    height: 100px;
+    overflow: hidden;
+}
+
+#efeito-carrossel> #fotos{
+    width: 499%;
+    animation-name: animacao;
+    animation-duration: 20s;
+    animation-iteration-count: ease-out;
+}
+
+#efeito-carrossel #fotos> img{
+    width: 20%;
+}
+
+@keyframes animacao{
+    0%{
+        margin-left: 0;
+    }
+    20%{
+        margin-left: 0;
+    }
+    25%{
+        margin-left: -100%;
+    }
+    45%{
+        margin-left: -100%;
+    }
+    50%{
+        margin-left: -200%;
+    }
+    70%{
+        margin-left: -200%;
+    }
+    75%{
+        margin-left: -300%;
+    }
+    95%{
+        margin-left: -300%;
+    }
+    100%{
+        margin-left: -400%;
+    }
+}
+
+
+/*Seção de Categorias*/
+#categorias {
+    margin: auto;
+    width: 1150px;
+}
+
+#list-categoria1,
+#list-categoria2,
+#list-categoria3,
+#list-categoria4,
+#coluna-lojas1,
+#coluna-lojas2,
+#coluna-lojas3,
+#coluna-lojas4 {
+    display: inline-block;
+}
+
+.zoom:hover{
+    transform: scale(1.01);
+    border: 1px solid rgb(223, 207, 207);
+}
+
+#list-categoria1,
+#destaque1,
+#coluna-lojas1 {
+    margin-left: 20px;
+}
+
+#list-categoria1>div,
+#list-categoria2>div,
+#list-categoria3>div,
+#list-categoria4>div,
+#coluna-lojas1>div,
+#coluna-lojas2>div,
+#coluna-lojas3>div,
+#coluna-lojas4>div,
+#coluna-lojas5>div {
+    width: 270px;
+    height: 150px;
+    margin-top: 3px;
+    border: 1px solid rgb(221, 221, 221);
+}
+
+h3{
+    font-style: oblique;
+    padding: 5px;
+    text-align: center;
+}
+
+/*Inicio das imagens e efeito hover, até o momento não achei outra forma de fazer */
+.imagens-sub-produtos1{
+    background-image: url(../Imagens/Destaques/Biquini1.jpg);
+}
+
+.imagens-sub-produtos1:hover{
+    background-image: url(../Imagens/Destaques/Biquini2.jpg);
+}
+
+.imagens-sub-produtos2{
+    background-image: url(../Imagens/Destaques/Conjunto1.jpg);
+}
+
+.imagens-sub-produtos2:hover{
+    background-image: url(../Imagens/Destaques/Conjunto2.jpg);
+}
+
+.imagens-sub-produtos3{
+    background-image: url(../Imagens/Destaques/Elastico1.jpg);
+}
+
+.imagens-sub-produtos3:hover{
+    background-image: url(../Imagens/Destaques/Elastico2.jpg);
+}
+
+.imagens-sub-produtos4{
+    background-image: url(../Imagens/Destaques/Escova1.jpg);
+}
+
+.imagens-sub-produtos4:hover{
+    background-image: url(../Imagens/Destaques/Escova2.jpg);
+}
+
+.imagens-sub-produtos5{
+    background-image: url(../Imagens/Destaques/Garrafa1.jpg);
+}
+
+.imagens-sub-produtos5:hover{
+    background-image: url(../Imagens/Destaques/Garrafa2.jpg);
+}
+
+.imagens-sub-produtos6{
+    background-image: url(../Imagens/Destaques/Pingente1.jpg);
+}
+
+.imagens-sub-produtos6:hover{
+    background-image: url(../Imagens/Destaques/Pingente2.jpg);
+}
+
+.imagens-sub-produtos7{
+    background-image: url(../Imagens/Destaques/Refrigerador1.jpg);
+}
+
+.imagens-sub-produtos7:hover{
+    background-image: url(../Imagens/Destaques/Refrigerador1\ \(2\).jpg);
+}
+
+.imagens-sub-produtos8{
+    background-image: url(../Imagens/Destaques/Tenis1.jpg);
+}
+
+.imagens-sub-produtos8:hover{
+    background-image: url(../Imagens/Destaques/Tenis2.jpg);
+}
+
+.imagens-sub-produtos9{
+    background-image: url(../Imagens/Destaques/Ventilador1.jpg);
+}
+
+.imagens-sub-produtos9:hover{
+    background-image: url(../Imagens/Destaques/Ventiliador2.jpg);
+}
+
+.imagens-sub-produtos10{
+    background-image: url(../Imagens/Destaques/Xuxinha1.jpg);
+}
+
+.imagens-sub-produtos10:hover{
+    background-image: url(../Imagens/Destaques/Xuxinha2.jpg);
+}
+
+/*Fim dos efeito hover nas imagens */
+
+/*Seção de destaques da semana*/
+#destaques-semana,
+#lojas-oficiais {
+    margin: auto;
+    width: 1150px;
+}
+
+#destaque1,
+#destaque2,
+#destaque3,
+#destaque4,
+#destaque5 {
+    display: inline-block;
+}
+
+/*Formatação do Footer*/
+footer div>div {
+    display: inline-flex;
+}
+
+footer div ul {
+    width: 150px;
+    border: 1px solid rgb(229, 229, 229);
+}
+
+footer ul li {
+    display: block;
+}
+
+.text-format>li{
+    text-align: center;
+    margin-left: 5px;
+}
+
+.text-format>li>a{
+    font-family: 'bree-serif';
+    font-weight: 500;
+}
+
+.text-format>li>a:hover{
+    font-family: 'bree-serif';
+    font-weight: 1000;
+}
+
+#cadastrar {
+    width: 550px;
+    float: right;
+}
+
+#cadastrar ul {
+    width: 535px;
+}
+
+#cadastrar ul>li{
+    text-align: center;
+}
+
+.dados{
+    width: 400px;
+    height: 25px;
+}
+
+input{
+    padding-left: 6px;
+    border-color: rgb(221, 221, 221);
+}
+
+.cadastro{
+    width: 80px;
+    height: 25px;
+    border-color: rgb(221, 221, 221);
+    border-radius: 5px;
+}
